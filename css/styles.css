@@ -1,3 +1,4 @@
+/* css variables */
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -17,7 +18,9 @@ body {
   background-color: var(--white);
 }
 
-.logo-style {
+/* general styles */
+
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -27,20 +30,38 @@ body {
   color: #4d5ae5;
 }
 
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
 .link {
   text-decoration: none;
 }
-
-.inside-logo {
-  color: var(--span-color, #2e2f42);
-}
-
-.Liststyle {
-  list-style: none;
-}
-
 .list {
   list-style: none;
+}
+.inside-logo {
+  color: var(--span-color, #2e2f42);
 }
 
 .link-style {
@@ -102,25 +123,14 @@ body {
   background-color: #404bbf;
 }
 
-.list {
-  list-style: none;
-}
-
-.second-section li h3,
-.second-section li p {
+.second-section,
+.second-section {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.second-section li h3 {
+.second-section {
   color: #2e2f42;
-}
-
-.second-section li p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
