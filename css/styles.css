@@ -169,3 +169,12 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+
+.portfolio-button {
+  color: #4d5ae5;
+  background-color: var(--cloud);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+}
